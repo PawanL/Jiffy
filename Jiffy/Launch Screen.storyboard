@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lvX-zm-THT">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <color key="backgroundColor" red="0.0" green="0.78039215689999997" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jiffy" translatesAutoresizingMaskIntoConstraints="NO" id="pTG-vU-6RQ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright ©️2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="obG-Y5-kRd">
+                                <rect key="frame" x="20" y="439" width="280" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pTG-vU-6RQ" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="-20" id="0nw-2m-PxM"/>
+                            <constraint firstItem="pTG-vU-6RQ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="1Ts-jp-a5c"/>
+                            <constraint firstAttribute="centerX" secondItem="obG-Y5-kRd" secondAttribute="centerX" id="5cz-MP-9tL"/>
+                            <constraint firstItem="lvX-zm-THT" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Bbz-1M-TSE"/>
+                            <constraint firstAttribute="bottom" secondItem="lvX-zm-THT" secondAttribute="bottom" constant="400" id="BgV-Gb-8zF"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="lvX-zm-THT" secondAttribute="bottom" id="Bpv-Fs-Ajh"/>
+                            <constraint firstItem="lvX-zm-THT" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="DtU-mj-OAu"/>
+                            <constraint firstAttribute="trailing" secondItem="lvX-zm-THT" secondAttribute="trailing" id="KRQ-gE-fSp"/>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" symbolic="YES" id="SfN-ll-jLj"/>
+                            <constraint firstItem="lvX-zm-THT" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Tt3-O2-4ce"/>
+                            <constraint firstItem="lvX-zm-THT" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="V2K-pJ-VQT"/>
+                            <constraint firstAttribute="bottom" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="20" id="Y44-ml-fuU"/>
+                            <constraint firstAttribute="trailing" secondItem="lvX-zm-THT" secondAttribute="trailing" id="hHL-a6-KXi"/>
+                            <constraint firstAttribute="trailing" secondItem="pTG-vU-6RQ" secondAttribute="trailing" id="qRR-GU-RiJ"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="pTG-vU-6RQ" secondAttribute="bottom" id="sMZ-dX-HQA"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="BgV-Gb-8zF"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="jiffy" width="341" height="341"/>
+    </resources>
+</document>
