@@ -34,13 +34,13 @@ var categoriesArray = [
 
 
 // IMPORTANT: Change the red string below with the path where you've stored the sendReply.php file (in this case we've stored it into a directory in our website called "Jiffy")
-var PATH_TO_PHP_FILE = "http://www.jiffyClassifieds.com/jiffy/"
+var PATH_TO_PHP_FILE = "lajdsflasdflasjdfl"
 
 // IMPORTANT: You must replace the red email address below with the one you'll dedicate to Report emails from Users, in order to also agree with EULA Terms (Required by Apple)
-let MY_REPORT_EMAIL_ADDRESS = "pawan.litt27@gmail.com"
+let MY_REPORT_EMAIL_ADDRESS = "aisdhfkjasdhflasd"
 
 // IMPORTANT: Replace the red string below with your own AdMob INTERSTITIAL's Unit ID
-var ADMOB_UNIT_ID = "ca-app-pub-3011193616117520/4110419697"
+var ADMOB_UNIT_ID = "aksdjf;lasdjfl;asdjkf"
 
 
 // HUD View
